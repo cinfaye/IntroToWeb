@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul.nav-menu
+{
+    background-color: crimson;
+}
+ul.nav-menu li
+{
+    padding-top: 20px;
+    display: inline-block;
+}
+ul.nav-menu li a:hover, ul.nav-menu li a.active
+{
+    background-color: tomato;
+}
+ul.nav-menu li a
+{
+    
+    text-decoration: none;
+    font-family: verdana;
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 30px;
+}

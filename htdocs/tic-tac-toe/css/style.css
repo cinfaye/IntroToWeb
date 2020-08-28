@@ -1,0 +1,72 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fredericka+the+Great&display=swap');
+*{margin: 0; padding: 0; user-select: none;}
+body {
+    background: url("../img/background-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+div#game-message {
+    flex-direction: column;
+    width: 50%; 
+    margin: 20px;
+}
+h2#title {font-size: 100px; color: whitesmoke; text-align: center; margin: 20px; font-family: 'Chelsea Market', cursive;}
+p#intro {font-size: 50px; color: whitesmoke; text-align: center; font-family: 'Chelsea Market', cursive;}
+form#players{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+div.input {
+    color: whitesmoke;
+    width: 262px;
+    margin: auto;
+    padding: 15px;
+}
+div.input label, div.input p {
+    font-size: 30px;
+    font-family: 'Chelsea Market', cursive;
+}
+input.names {
+    height: 30px;
+}
+.button {
+    height: 32px;
+    width: 80px;
+    margin: 15px auto;
+    font-family: 'Chelsea Market', cursive;
+}
+
+div#game-board{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div[id^="row-"] {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    
+}
+div[id^="row-"] div {
+    border: 5px solid whitesmoke;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 200px;
+    color: whitesmoke;
+}
+div#row-1 div {border-top: none;}
+div#row-3 div {border-bottom: none;}
+div[id^="row-"] div:first-child {border-left: none;}
+div[id^="row-"] div:last-child {border-right: none;}
+
+
+
+

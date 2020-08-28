@@ -1,0 +1,63 @@
+*{
+    background-color: black;
+    margin: auto;
+    padding: 0;
+}
+div.label
+{
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: lightslategray;
+    border-radius: 5px 20px 5px;
+    padding-top: 15px;
+    position: relative;
+    height: 40px;
+    width: 150px;
+    right: 374px;
+    top: 54px;
+}
+div.crust
+{
+    background-color: tomato;
+    border: 50px solid darkgoldenrod;
+    border-radius: 50%;
+    height: 800px;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+div.cheese
+{
+    position: absolute;
+    background-color: lightyellow;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+div#ch1.cheese{top: 27px; right: 70px;}
+div#ch2.cheese{top: 10px; left: 121px;}
+div#ch3.cheese{bottom: 174px; right: 8px;}
+div#ch4.cheese{bottom: 216px; left: 25px;}
+div#ch5.cheese{bottom: 89px; right: 285px;}
+div#ch6.cheese{bottom: 27px; right: 222px;}
+div#ch7.cheese{bottom: 27px; right: 67px;}
+div.roni
+{
+    position: absolute;
+    background-color: firebrick;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+div#pep-1.roni{top: 85px; right: 277px;}
+div#pep-2.roni{top: 224px; right: 94px;}
+div#pep-3.roni{top: 155px; left: 193px;}
+div#pep-4.roni{top: 270px; left: 47px;}
+div#pep-5.roni{bottom: 179px; right: 89px;}
+div#pep-6.roni{bottom: 62px; right: 279px;}
+div#pep-7.roni{bottom: 275px; left: 253px;}
+div#pep-8.roni{bottom: 125px; left: 140px;}
+div#pep-9.roni{top: 311px; right: 248px;}

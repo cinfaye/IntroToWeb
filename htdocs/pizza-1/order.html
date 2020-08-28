@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Pizzaria Order</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <h1>Let's make a pizza!</h1>
+        <form method="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+            <h3>Start with the Crust...</h3>
+            <input type="radio" name="crust" value="Thin">Thin Crust<br>
+            <input type="radio" name="crust" value="Garlic">Garlic Crust<br>
+            <input type="radio" name="crust" value="Stuffed">Stuffed with cheesy goodness<br>
+            <input type="radio" name="crust" value="Brooklyn Style">Brooklyn Style<br>
+
+            <h3>How big you want it?</h3>
+            <select name="size">
+                <option value="12 in.">12"</option>
+                <option value="14 in.">14"</option>
+                <option value="18 in.">18"</option>
+            </select>
+
+            <h3>Throw some stuff on top...</h3>
+            <input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni<br>
+            <input type="checkbox" name="toppings[]" value="Sausage">Sausage<br>
+            <input type="checkbox" name="toppings[]" value="Bacon">Bacon<br>
+            <input type="checkbox" name="toppings[]" value="Chicken">Chicken<br>
+            <input type="checkbox" name="toppings[]" value="Peppers">Peppers<br>
+            <input type="checkbox" name="toppings[]" value="Onions">Onions<br>
+            <input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms<br>
+            <input type="checkbox" name="toppings[]" value="Jalapeno">Jalapeno<br>
+            <input type="checkbox" name="toppings[]" value="Olives">Black Olives<br>
+            <input type="checkbox" name="toppings[]" value="Pineapple">Pineapple<br>
+            
+            <h3>Now, Where are we going with this?</h3>
+            <label for="first">First Name:</label>
+            <input type="text" id="first" name="first"><br><br>
+            <label for="last">Last Name:</label>
+            <input type="text" id="last" name="last"><br><br>
+            <label for="add1">Address Line 1:</label>
+            <input type="text" id="add1" name="add1"><br><br>
+            <label for="add2">Address Line 2:</label>
+            <input type="text" id="add2" name="add2"><br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip"><br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="comments">Special Requests:</label>
+            <textarea id="comments" name="comments"></textarea><br><br>
+
+            <input type="submit">
+            <input type="reset" value="Clear">
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Pizzaria Order</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Raleway:wght@500&display=swap');
+        </style>
+    </head>
+    <body>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <h1 class="greet">Let's make a pizza!</h1>
+        <p class="content">Customize your pizza! Choose from our large selection. We tried to include all the things you might want on a pizza. Except for pineapple, because that's a ridiculous topping and it DOES NOT BELONG ON PIZZA... So pick something that's actually good. Make sure to leave a note with special instructions! We'll do whatever you say! Except putting pineapple on pizza... and if that is what kind of person you are we'll just cancel the order because you don't deserve pizza.</p>
+        <form class="order-form" method="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+            <div class="block-1">
+                <div class="section-1">
+                    <h3>Start with the Crust...</h3>
+                    <input type="radio" name="crust" value="Thin">Thin Crust<br>
+                    <input type="radio" name="crust" value="Garlic">Garlic Crust<br>
+                    <input type="radio" name="crust" value="Stuffed">Stuffed with cheesy goodness<br>
+                    <input type="radio" name="crust" value="Brooklyn Style">Brooklyn Style<br>
+                    <input type="radio" name="crust" value="Cauliflower">Cauliflower<br>
+                    <input type="radio" name="crust" value="Calzone">Calzone<br>
+                    <input type="radio" name="crust" value="Deep Dish">Deep Dish<br>
+                    <input type="radio" name="crust" value="Pretzel">Pretzel<br>
+                    <input type="radio" name="crust" value="No">No Crust<br>
+                </div>
+                <div class="section-1">
+                    <h3>How big you want it?</h3>
+                    <select name="size">
+                        <option value="8 in.">8"</option>
+                        <option value="12 in.">12"</option>
+                        <option value="14 in.">14"</option>
+                        <option value="18 in.">18"</option>
+                        <option value="20 in.">20"</option>
+                        <option value="22 in.">22"</option>
+                        <option value="24 in.">24"</option>
+                        <option value="26 in.">26"</option>
+                    </select>
+                    <h3>Make it Saucy!</h3>
+                    <input type="radio" name="toppings[]" value="Alfredo">Alfredo<br>
+                    <input type="radio" name="toppings[]" value="Marinara">Marinara<br>
+                    <input type="radio" name="toppings[]" value="White Garlic">White Garlic<br>
+                    <input type="radio" name="toppings[]" value="Pesto">Pesto<br>
+                    <input type="radio" name="toppings[]" value="Vodka Sauce">Vodka Sauce<br> 
+                    <input type="radio" name="toppings[]" value="Queso">Queso<br> 
+                    <input type="radio" name="toppings[]" value="Chunky Tomatoe Sauce">Chunky Tomatoe Sauce<br> 
+                    <input type="radio" name="toppings[]" value="Garlic Parmesan">Garlic Parmesan<br> 
+                </div>
+                <div class="section-1">
+                    <h3>Choose Your Meat...</h3>
+                    <input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni<br>
+                    <input type="checkbox" name="toppings[]" value="Sausage">Sausage<br>
+                    <input type="checkbox" name="toppings[]" value="Bacon">Bacon<br>
+                    <input type="checkbox" name="toppings[]" value="Chicken">Chicken<br>
+                    <input type="checkbox" name="toppings[]" value="Hamburger">Hamburger<br>
+                    <input type="checkbox" name="toppings[]" value="Anchovies">Anchovies<br>
+                    <input type="checkbox" name="toppings[]" value="Ham">Ham<br>
+                    <input type="checkbox" name="toppings[]" value="Salami">Salami<br>
+                    <input type="checkbox" name="toppings[]" value="Canadian Bacon">Canadian Bacon<br>
+                    <input type="checkbox" name="toppings[]" value="Prosciutto">Prosciutto<br>   
+                </div>
+                <div class="section-1">
+                    <h3>Add some other stuff...</h3>
+                    <input type="checkbox" name="toppings[]" value="Onions">Onions<br>
+                    <input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms<br>
+                    <input type="checkbox" name="toppings[]" value="Jalapeno">Jalapeno<br>
+                    <input type="checkbox" name="toppings[]" value="Olives">Black Olives<br>
+                    <input type="checkbox" name="toppings[]" value="Banana Peppers">Banana Peppers<br>
+                    <input type="checkbox" name="toppings[]" value="Green Peppers">Green Peppers<br>
+                    <input type="checkbox" name="toppings[]" value="Sun-Dried Tomatoes">Sun-Dried Tomatoes<br>
+                    <input type="checkbox" name="toppings[]" value="Spinach">Spinach<br>
+                    <input type="checkbox" name="toppings[]" value="Artichoke">Artichoke<br>
+                    <input type="checkbox" name="toppings[]" value="Red Peppers">Red Peppers<br>
+                </div>  
+            </div>  
+            <div class="box-2">
+                <h3>Now, Where are we going with this?</h3>
+                <div class="section-2">
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" name="first">
+                </div>
+                <div class="section-2">   
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" name="last">
+                </div> 
+                <div class="section-2">
+                    <label for="add1">Address Line 1:</label>
+                    <input type="text" required="required" id="add1" name="add1">
+                </div>
+                <div class="section-2">
+                    <label for="add2">Address Line 2:</label>
+                    <input type="text" id="add2" name="add2">
+                </div>
+                <div class="section-2">
+                    <label for="city">City:</label>
+                    <input type="text" required="required" id="city" name="city">
+                    <label for="state">State:</label>
+                    <select id="state" name="state" required="required" size="50">
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AZ">AZ</option>
+                        <option value="AR">AR</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>
+                    </select> 
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" required="required" id="zip" name="zip">
+                </div>
+                <div class="section-2">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" required="required" id="phone" name="phone">
+                    <label for="email">Email Address:</label>
+                    <input type="text" required="required" id="email" name="email">
+                </div>
+                <div class="section-2">
+                    <label for="comments">Special Requests:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+                <div class="buttons">
+                    <input type="submit">
+                    <input type="reset" value="Clear">
+                </div>
+            </div>
+        </form>
+        <div class="block-3">
+            <img src="img/order-img.jpg" alt="order-img" class="order-img">
+        </div>
+    </body>
+</html>

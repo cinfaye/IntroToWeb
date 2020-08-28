@@ -1,0 +1,51 @@
+
+h1
+{
+    background-color: black;
+    font-family: 'Holtwood One SC', serif;
+}
+h2
+{
+    color: gold;
+    font-family: 'Bangers', cursive;
+    font-size: 20pt;
+    border-bottom: 5px solid gold;
+    margin: 1% 25%;
+}
+p
+{
+    font-family: 'Questrial', sans-serif;
+}
+.alt-names
+{
+    color: mediumblue;
+}
+.dc-appearing
+{
+    background-color: slategray;
+}
+.marv-appearing
+{
+    background-color: springgreen;
+}
+.stan-lee
+{
+    background-color: steelblue;
+}
+.inner-box
+{
+    border: 1px solid gold;
+    padding: 5px;
+}
+#div-1
+{
+    border: 5px dashed black;
+    padding: 2%;
+    margin: 5px;
+}
+#div-2
+{
+    border: 5px dashed black;
+    padding: 2%;
+    margin: 5px;
+}

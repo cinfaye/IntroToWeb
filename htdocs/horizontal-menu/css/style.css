@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul.nav-menu
+{
+    background-color: cyan;
+    text-align: right;
+}
+ul.nav-menu li
+{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul.nav-menu li a:hover, ul.nav-menu li a.active
+{
+    background-color: darkblue;
+    color: cyan;
+}
+ul.nav-menu li a
+{
+    font-size: 35px;
+    font-family: 'Berkshire Swash', cursive;
+    text-decoration: none;
+    color: darkblue;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 25px;
+}

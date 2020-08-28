@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic-Tac-Toe</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body onload="start();">
+        <div id="game-message">
+            <h2 id="title">Tic Tac Toe</h2>
+            <p id="intro">Let's Play! Who goes first?</p>
+            <div id="form-play">
+                <form id="players" action="#" onsubmit="enterPlayers();">
+                    <div class="input"><label>Player-1:</label><input class="names" name="player1" id="player1" type="text"></div>
+                    <div class="input"><label>Player-2:</label><input class="names" name="player2" id="player2" type="text"></div>
+                    <div class="input"><input class="button" type="submit"><button class="button" onclick="start();">Play Again</button></div>
+                    <div class="input"><p id="scoreboard0"></p><p id="scoreboard1"></p></div>
+                </form>
+            </div>
+        </div>
+        <div id="game-board"></div>
+    </body>
+</html>
